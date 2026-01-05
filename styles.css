@@ -1,2 +1,46 @@
 
 /* Your CSS Code here. */
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+body{
+	background-color:rgb(204,204,204);
+}
+
+.heading{
+	display:flex;
+	justify-content:space-between;
+	border-block-end:2px black solid;
+	background-color:wheat;
+}
+h1{
+	font-size:40px;
+	font-display:bold;
+	
+}
+.navigate{
+	display:flex;
+	justify-content:space-evenly;
+	border-block-end:1px black solid;
+	height:100px;
+	}
+a{
+	padding-top:50px;
+	color:black;
+	font-size:20px;
+	text-decoration:none;
+	
+}
+h2{
+	text-align:center;
+	
+}
+#skills{
+	border-bottom:2px black solid;
+	height:100px;
+	padding-left:10px;
+}
+
+
